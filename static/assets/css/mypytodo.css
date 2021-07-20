@@ -1,3 +1,6 @@
+.font-17{
+    font-size: 17px;
+}
 .font-20{
     font-size: 20px;
 }
@@ -25,6 +28,7 @@
 .todo-title{
     font-size: 18px;
     color: #4a4a4a;
+    font-weight: bold;
 }
 .plus-btn{
     position: fixed;
@@ -47,4 +51,9 @@ footer{
 .form-control:focus{
     border: rgba(122, 122, 122, 0.4);
     box-shadow: none;
+}
+@media screen and (max-width:768px) { 
+    .pl-0-mobile{
+        padding-left: 0px !important;
+    }
 }
